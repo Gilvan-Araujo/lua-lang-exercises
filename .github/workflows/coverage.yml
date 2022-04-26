@@ -1,3 +1,5 @@
+name: coverage
+
 language: python
 sudo: false
 
