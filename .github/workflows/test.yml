@@ -21,4 +21,12 @@ jobs:
 
       - name: test
         run: |
-          busted -o utfTerminal
+          busted -c -v -o utfTerminal
+          luacov
+
+language: c
+after_success:
+  - bash <(curl -s https://codecov.io/bash)
+  - curl -Os https://uploader.codecov.io/latest/linux/codecov
+  - chmod +x codecov
+  - ./codecov
