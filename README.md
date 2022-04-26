@@ -1,7 +1,7 @@
 # lua-lang-exercises
 Code examples, all done with TDD, for problems solved using the Lua language.
 
-## Scripts (done)
+## Scripts
 
 - [x] Hello, World!
 - [x] Hamming
